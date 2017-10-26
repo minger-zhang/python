@@ -5,6 +5,7 @@ Git tracks changes
 Creating a new branch is quick.
 Creating a new branch is quick and simple.
 
+creating a new brach for close Fast forward.
 
 
 
