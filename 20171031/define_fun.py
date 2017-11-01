@@ -29,3 +29,20 @@ def move(n,a,b,c):
        print_move(n,a,c)
        move(n-1,b,a,c)
 
+
+def fib(max):
+    n,a,b = 0, 0, 1
+    while n < max:
+    #@     print(b)
+         yield b
+         a,b = b, a + b
+         n = n + 1
+    return 'done'
+
+def triangles():
+     L = [1]
+     while True:
+        yield L
+        L.append(0)
+        T = [L[i] + L[i - 1] for i in range(len(L))]
+        L = T
