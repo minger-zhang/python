@@ -87,9 +87,14 @@ class Cat(Animal):
 
 
 
+def run_twice(animal):
+    animal.run()
+    animal.run()
 
 
-
+class Tortoise(Animal):
+    def run(self):
+        print('Tortoise is running slowly...')
 
 
 

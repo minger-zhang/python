@@ -6,8 +6,9 @@ from define_fun import Student
 from define_fun import Student1
 from define_fun import Dog
 from define_fun import Cat
-
-
+from define_fun import run_twice
+from define_fun import Animal
+from define_fun import Tortoise
 
 hello.test() #####can't bring argument
 
@@ -44,13 +45,21 @@ dog.run()
 cat = Cat()
 cat.run()
 
+print('run here')
+run_twice(Animal())
 
 
+a = list()
+b = Animal()
+c = Dog()
 
+print(isinstance(a,list))
+print(isinstance(b,Animal))
+print(isinstance(c,Dog))
+print(isinstance(c,Animal))
+print(isinstance(b,Dog))
 
-
-
-
+run_twice(Tortoise())
 
 
 
