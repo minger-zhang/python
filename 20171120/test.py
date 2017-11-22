@@ -4,6 +4,7 @@ from enum import Enum
 from define_fun import Student
 from define_fun import Gender
 from define_fun import User
+import pdb
 
 #Month = Enum('Month',('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'))
 Month = Enum("Month",('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'))
@@ -16,6 +17,7 @@ if bart.gender == Gender.Male:
 else:
     print('test faile')
 
+pdb.set_trace()
 u = User(id=1234,name='Micheal',email='test@orm.org',password='my-pwd')
 u.save()
 
